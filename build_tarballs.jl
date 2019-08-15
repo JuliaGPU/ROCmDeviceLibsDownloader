@@ -3,12 +3,12 @@
 using BinaryBuilder
 
 name = "ROCmDeviceLibsDownloader"
-version = v"1.8.3"
+version = v"2.2.0"
 
-# Collection of sources required to build YasmBuilder
+# Collection of sources required to download ROCm-Device-Libs
 sources = [
-    "http://repo.radeon.com/rocm/archive/apt_1.8.3.tar.bz2" =>
-    "bb56a10af551f9012f09b9a6091d47ed165530daed4919346000f8994967179f",
+    "http://repo.radeon.com/rocm/archive/apt_2.2.0.tar.bz2" =>
+    "a0013c4b4282f6295cb3f34566b0f13e0db030bb39c4364430f4108d16782f97",
 
 ]
 
