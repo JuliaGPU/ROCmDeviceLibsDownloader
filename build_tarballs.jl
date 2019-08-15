@@ -32,7 +32,8 @@ platforms = [
 
 # The products that we will ensure are always built
 products(prefix) = [
-    FileProduct(prefix, "opt/rocm/lib", :rocmdevlibdir),
+    # TODO: A better way to emulate a FolderProduct would be nice
+    FileProduct(prefix, "lib/ockl.amdgcn.bc", :rocmdevlibdir),
 ]
 
 # Dependencies that must be installed before this package can be built
